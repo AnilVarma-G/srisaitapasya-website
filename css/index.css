@@ -957,7 +957,7 @@ table tr:nth-child(odd) {
 
 .modal-content {
    display: block;
-   margin: 120px auto;
+   margin: 300px auto;
    max-width: 80%;
    max-height: 80%;
 }
