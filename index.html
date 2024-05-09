@@ -30,7 +30,7 @@
    <header>
       <nav class="nav">
          <a href="/" class="logo"><img src="./img/logo.jpg" alt="" height="100px" width="150px"
-               style="position: absolute; top: 2px; left: 15px; "></a>
+               style="position: absolute; top: -5px; left: 15px;  padding: 10px; "></a>
 
          <div class="hamburger">
             <span class="line"></span>
@@ -39,9 +39,9 @@
          </div>
 
          <div class="nav__link hide">
-            <span><a href="#Home"><i class="fas fa-home"></i> Home</a></span>
-            <span><a href="#About"><i class="fas fa-info-circle"></i> About</a></span>
-            <span><a href="#AgeGroup"><i class="fas fa-users"></i> Age Group</a></span>
+            <span><a href="#Home" onclick="scrollToTarget()"><i class="fas fa-home"></i> Home</a></span>
+            <span><a href="#" onclick="scrollToTarget()"><i class="fas fa-info-circle"></i> About</a></span>
+            <span><a href="#AgeGroup" onclick="scrollToTarget()"><i class="fas fa-users"></i> Age Group</a></span>
             <span><a href="#DayCare"><i class="fas fa-baby"></i> Day Care</a></span>
             <span><a href="#Facilitate"><i class="fas fa-handshake"></i> Facilitate</a></span>
             <span><a href="#Gallery"><i class="fas fa-images"></i> Gallery</a></span>
@@ -57,7 +57,7 @@
       <header class="mainHeader">
       </header>
 
-      <div class="mainDiv" id="Home">
+      <div class="mainDiv" id="Home" style="  overflow: hidden;">
          <section class="mainSec">
             <h1>Sri Sai Tapasya Day Care & Primary School</h1>
             <p>
@@ -81,8 +81,8 @@
       </section>
 
       <section class="firstSec">
-         <section class="courseSec">
-            <h3>7months to UKG</h3>
+         <section class="courseSec" style="  overflow: hidden;">
+            <h3 style="font-weight: bold;">7months to UKG</h3>
             <p>
                With UKG just around the corner, it's time for some fun learning! Make these next months exciting by
                playing games that build reading, writing, and counting skills. Celebrate every little progress and keep
@@ -91,8 +91,8 @@
             </p>
          </section>
 
-         <section class="courseSec">
-            <h3>1st to 5th Class</h3>
+         <section class="courseSec" style="  overflow: hidden;">
+            <h3 style="font-weight: bold;">1st to 5th Class</h3>
             <p>
                Building on our strong roots in leadership, health care and education, NerdFord is proud
                to offer an array of coed graduate programs for women and men who are ready to advance
@@ -102,7 +102,7 @@
          </section>
 
          <section class="courseSec">
-            <h3>Play Group</h3>
+            <h3 style="font-weight: bold;">Play Group</h3>
             <p>
                Welcome, adventurers! Every day in our play group is an opportunity to learn, make friends, and have fun.
                Remember, each of you is special and capable of amazing things. Let's explore new ideas, laugh together,
@@ -114,7 +114,7 @@
    </div>
 
    <div>
-      <h1 style="text-align: center; font-size: 35px; padding: 20px; font-weight: bold; color: #5F4B8BFF;">Festival Wise
+      <h1 style="text-align: center; font-size: 35px; padding: 20px; font-weight: bold; color: #5F4B8BFF;   overflow: hidden;">Festival Wise
          Celebrations</h1>
       <p style="text-align: center; padding: 15px; margin-top: -20px;">At school, celebrate festivals to engage children
          in cultural experiences. For Diwali, have rangoli making and diya painting. During Christmas, decorate trees,
@@ -145,7 +145,7 @@
    </div>
 
 
-   <div class="container">
+   <div class="container" style="  overflow: hidden;">
       <div class="about-section">
          <div class="about-image">
             <img src="./img/about.jpeg" alt="About Us Image">
@@ -155,8 +155,8 @@
                Joythi-Contact 9030572261 </p>
          </div>
 
-         <div class="about-description" id="About">
-            <h2 class="about-title" style="font-weight: bold; color: #5F4B8BFF;">About Us</h2>
+         <div class="about-description"  style="  overflow: hidden;">
+            <h2 class="about-title" id="About" style="font-weight: bold; color: #5F4B8BFF;">About Us</h2>
             <p class="about-text">
                Sri Sai Tapasya Pre Primary School, established in 2021 by K. Madhavi, is dedicated to providing
                comprehensive care and education to children from daycare to 5th grade. With a strong emphasis on
@@ -207,7 +207,7 @@
    </div>
 
    <div class="divEight" id="AgeGroup">
-      <h1 class="age-title" style="font-weight: bold; color: #5F4B8BFF;">Age Group</h1>
+      <h1 class="age-title" style="font-weight: bold; color: #5F4B8BFF;"  id="AgeGroup">Age Group</h1>
       <table>
          <tr class="tr-row">
             <th>S.No</th>
@@ -384,7 +384,7 @@
                <img src="img/daycare10.jpeg" alt="Picture of our Achievements">
             </section>
 
-            <h3>Class Achievements</h3>
+            <h3 style="font-weight: bold;">Class Achievements</h3>
 
             <p>
 
@@ -400,7 +400,7 @@
                <img src="img/Daycare.jpeg" alt="Picture of our Playground">
             </section>
 
-            <h3> Play Ground</h3>
+            <h3 style="font-weight: bold;"> Play Ground</h3>
 
             <p>
                The playground at Sri Sai Tapasya Day Care and Primary School isn't just for fun—it's where kids learn
@@ -414,7 +414,7 @@
                <img src="img/daycare15.jpeg" alt="Picture of our Cafeteria">
             </section>
 
-            <h3>Children's Yummy Zone</h3>
+            <h3 style="font-weight: bold;">Children's Yummy Zone</h3>
 
             <p>
                Children's Yummy Zone offers tasty, nutritious meals in a fun, safe environment. Our friendly staff
@@ -428,7 +428,7 @@
                <img src="img/daycare18.jpeg" alt="Picture of our Cafeteria">
             </section>
 
-            <h3>Study Hours</h3>
+            <h3 style="font-weight: bold;">Study Hours</h3>
 
             <p>
 
@@ -443,7 +443,7 @@
                <img src="img/daycare19.jpeg" alt="Picture of our Cafeteria">
             </section>
 
-            <h3> Additional Classes</h3>
+            <h3 style="font-weight: bold;"> Additional Classes</h3>
 
             <p>
 
@@ -460,7 +460,7 @@
                   alt="Picture of our Cafeteria">
             </section>
 
-            <h3> Transport Facilities</h3>
+            <h3 style="font-weight: bold;"> Transport Facilities</h3>
 
             <p>
                We offer transport facilities to ensure convenient and safe
@@ -485,7 +485,7 @@
                here to guide them every step of the way. Our dedicated team is committed to your child's success. Let's
                work
                together to make learning a rewarding experience!
-            <h3 style="text-align: center; color: gray;">Special focus to Kids & Nursery to intermediate</h3>
+            <h3 style="text-align: center; font-weight: bold;">Special focus to Kids & Nursery to intermediate</h3>
             </p>
             <tr>
                <th>Batches</th>

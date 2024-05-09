@@ -105,3 +105,21 @@ document.getElementById("showConfirmation").addEventListener("click", function()
       document.querySelector(".text").classList.add("typing-animation");
   }, 300); // Delay before starting typing animation
 });
+
+
+ // Adjust scroll position to account for fixed header
+ function adjustScrollPosition() {
+  if (window.location.hash) {
+    var targetElement = document.querySelector(window.location.hash);
+    if (targetElement) {
+      var headerHeight = document.querySelector('header').offsetHeight;
+      window.scrollTo({
+        top: targetElement.offsetTop - headerHeight,
+        behavior: 'smooth'
+      });
+    }
+  }
+}
+
+// Call the function on page load to adjust initial scroll position
+window.addEventListener('load', adjustScrollPosition)
