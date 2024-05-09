@@ -927,7 +927,7 @@ table tr:nth-child(odd) {
 
 .close-btn {
    position: absolute;
-
+    
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
@@ -957,7 +957,7 @@ table tr:nth-child(odd) {
 
 .modal-content {
    display: block;
-   margin: 20px auto;
+   margin: 120px auto;
    max-width: 80%;
    max-height: 80%;
 }
