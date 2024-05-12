@@ -123,3 +123,26 @@ document.getElementById("showConfirmation").addEventListener("click", function()
 
 // Call the function on page load to adjust initial scroll position
 window.addEventListener('load', adjustScrollPosition)
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const callLink = document.getElementById('callLink');
+
+  callLink.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default link behavior
+
+    const phoneNumber = '+918340947374'; // Replace with your desired phone number
+    const phoneLink = 'tel:' + encodeURIComponent(phoneNumber);
+
+    window.location.href = phoneLink;
+  });
+});
+
+
+
+// Add event listener to hamburger menu
+document.querySelector('.hamburger').addEventListener('click', function() {
+  // Toggle class to show/hide menu items
+  document.querySelector('.nav__link').classList.toggle('show');
+});
