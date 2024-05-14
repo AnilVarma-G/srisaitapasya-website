@@ -1499,13 +1499,13 @@ nav {
    font-size: 24px;
  }
  .list{
-   margin-top: -23px;
+   margin-top: -25px;
  }
  
  @media only screen and (min-width: 768px) {
    /* For desktop view */
    .list {
-      margin-left: 996px;
+      margin-left: 920px;
    }
 }
 
