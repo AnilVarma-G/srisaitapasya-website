@@ -253,7 +253,7 @@
    }
 
    .about-list {
-      padding-left: 0; /* Remove left padding on smaller screens */
+      padding-left: 0; 
    }
   .container h1 {
       margin-left: 10px;
