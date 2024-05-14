@@ -669,6 +669,7 @@ h1{
    align-items: center;
    flex-direction: column;
    padding-block: 50px;
+   overflow: hidden;
 }
 
 .divSeven>section {
@@ -682,7 +683,7 @@ h1{
    align-items: center;
    flex-wrap: wrap;
    margin-top: 30px;
-   overflow-y: hidden;
+   overflow:hidden;
 }
 
 .divSeven .firstSec>a {
