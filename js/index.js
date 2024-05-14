@@ -1,29 +1,40 @@
 
 
-const hamburger = document.querySelector('.hamburger');
-const navLink = document.querySelector('.nav__link');
+// const hamburger = document.querySelector('.hamburger');
+// const navLink = document.querySelector('.nav__link');
 
-hamburger.addEventListener('click', () => {
-  navLink.classList.toggle('hide');
-});
-// Add event listener to each menu item
-const menuItems = document.querySelectorAll('.nav__link a');
-menuItems.forEach(item => {
-  item.addEventListener('click', () => {
-    navLink.classList.add('hide'); // Close the menu bar
-  });
-});
+// hamburger.onclick( () => {
+//   navLink.classList.toggle('hide');
+// });
+// // Add event listener to each menu item
+// const menuItems = document.querySelectorAll('.nav__link a');
+// menuItems.forEach(item => {
+//   item.addEventListener('click', () => {
+//     navLink.classList.add('hide'); // Close the menu bar
+//   });
+// });
 
 // JavaScript function to toggle the visibility of the navigation menu
-function toggleMenu(event) {
-  var navItems = document.getElementById("navItems1");
-  if (navItems.style.display === "block") {
-      navItems.style.display = "none";
+// function toggleMenu(event) {
+//   var navItems = document.getElementById("nav__link1");
+//   if (navItems.style.display === "block") {
+//       navItems.style.display = "none";
+//   } if(navItems.style.display === "none"){
+//       navItems.style.display = "block";
+//   }
+//   event.stopPropagation(); // Prevents the click event from propagating to the document
+// }
+
+
+function toggleMenu() {
+  var navItems = document.getElementById("nav__link1");
+  if (navItems.style.display === "block" || window.innerWidth >= 768) {
+    navItems.style.display = "none";
   } else {
-      navItems.style.display = "block";
+    navItems.style.display = "block";
   }
-  event.stopPropagation(); // Prevents the click event from propagating to the document
 }
+
 
 // Close the navigation menu when clicking outside of it
 document.addEventListener("click", function(event) {

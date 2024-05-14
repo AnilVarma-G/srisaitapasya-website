@@ -294,4 +294,19 @@
    }
 }
 
+@media (min-width: 768px) {
+   /* Styles for desktop view */
+   #nav__link1 {
+     display: block;
+   }
+ }
+ 
+ @media (max-width: 767px) {
+   /* Styles for mobile view */
+   #nav__link1 {
+     display: none;
+   }
+ }
+ 
+
 
