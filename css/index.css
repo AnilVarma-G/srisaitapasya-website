@@ -1513,7 +1513,17 @@ nav {
    /* For mobile view */
    .list {
       margin-top: 8px;
-      margin-left: 110px; /* Resetting margin-left */
+      margin-left: 170px; /* Resetting margin-left */
+   }
+}
+
+@media (min-width: 1024px) {
+   .design {
+       font-size: 18px; /* Slightly larger font size for desktop */
+       padding: 15px 30px; /* Increase padding for better spacing */
+       /* margin-left: 255px; */
+  
+
    }
 }
 
